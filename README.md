@@ -1,14 +1,14 @@
 # Prácticas de Microcontroladores
 
-Repositorio para subir las prácticas realizadas en la materia de Microcontroladores.
+Repositorio de evidencias y archivos de trabajo para la materia de Microcontroladores.
 
-## Contenido
+En este repositorio se documentan las prácticas realizadas utilizando el microcontrolador PIC16F887, el compilador XC8, MPLAB X IDE, Proteus y el programador PICkit 3.
 
-### Practica_01_LEDS
-Práctica de salida digital usando LEDs con el PIC16F887.
+## Información general
 
-### Practica_02_MATRIZ
-Práctica con matriz LED 8x8 usando el PIC16F887.
-
-### Practica_03_DISPLAY_7SEG
-Práctica con display de 7 segmentos usando el PIC16F887.
+- Alumnos: Cristian Cristan, Edgar Sanchez
+- Materia: Microcontroladores
+- Microcontrolador utilizado: PIC16F887
+- Programador: PICkit 3
+- Software de programación: MPLAB X IDE / XC8
+- Software de simulación: Proteus
