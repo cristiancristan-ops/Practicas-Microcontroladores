@@ -28,4 +28,3 @@ Cuando el contador llega a 99 y se vuelve a sumar, regresa a 0. Si está en 0 y 
 
 - Código de los botones y LEDs.
 - Código del contador de 0 a 99.
-- Imágenes de las simulaciones.
