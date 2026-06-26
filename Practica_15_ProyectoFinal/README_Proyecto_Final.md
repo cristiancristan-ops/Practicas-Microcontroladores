@@ -83,12 +83,12 @@ El proyecto incluye:
 
 ```text
 PIC1
-├── Main.c
+Main.c
 
 PIC2
-├── Main.c
-├── lcd.c
-└── lcd.h
+Main.c
+lcd.c
+lcd.h
 ```
 
 El archivo del PIC 1 contiene la lectura del joystick y el envío de datos.
