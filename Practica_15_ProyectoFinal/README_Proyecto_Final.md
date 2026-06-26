@@ -56,11 +56,6 @@ En este proyecto uno de los PIC utiliza un cristal externo de 8 MHz y el otro ut
 
 La comunicación se realiza mediante UART.
 
-```text
-PIC 1 RC6/TX  →  PIC 2 RC7/RX
-PIC 1 GND     →  PIC 2 GND
-```
-
 El PIC 1 manda los siguientes caracteres:
 
 ```text
@@ -71,53 +66,6 @@ B = Botón presionado
 ```
 
 Para el juego se utilizan principalmente `U` para saltar y `B` para iniciar o reiniciar.
-
-## Conexiones del joystick
-
-```text
-VCC → 5 V
-GND → GND
-VRy → RA0 del PIC 1
-SW  → RB0 del PIC 1
-```
-
-## Conexiones de la LCD
-
-La pantalla LCD está conectada al PORTD del PIC 2.
-
-```text
-RS  → RD2
-EN  → RD3
-D4  → RD4
-D5  → RD5
-D6  → RD6
-D7  → RD7
-RW  → GND
-VSS → GND
-VDD → 5 V
-VO  → Potenciómetro de contraste
-```
-
-## LED y buzzer
-
-```text
-RB0 → Resistencia → LED rojo → GND
-RB1 → Buzzer → GND
-```
-
-Para el circuito físico se recomienda conectar el buzzer utilizando un transistor, especialmente si consume más corriente de la que puede entregar directamente el PIC.
-
-## Alimentación de los PIC
-
-En ambos PIC16F887 se conectan:
-
-```text
-VDD, pines 11 y 32 → 5 V
-VSS, pines 12 y 31 → GND
-MCLR, pin 1 → 5 V mediante resistencia de 10 kΩ
-```
-
-Los dos PIC deben compartir la misma tierra.
 
 ## Osciladores
 
